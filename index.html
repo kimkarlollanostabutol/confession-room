@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Confession Room</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to the Confession Room</h1>
-  <form>
-    <textarea placeholder="Type your confession here..."></textarea>
-    <br>
-    <button>Submit</button>
+  <h1>Confession Room</h1>
+
+  <form id="confessionForm">
+    <textarea id="confessionInput" placeholder="Write what bothers you" required></textarea><br>
+    <button type="submit">Post</button>
   </form>
+
+  <div id="confessionList">
+    <!-- Lalabas dito ang mga confession -->
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
